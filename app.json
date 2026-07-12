@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "pe.edu.upao.mvpmobile"
     },
     "web": {
       "output": "static",
@@ -38,11 +39,25 @@
             "backgroundColor": "#000000"
           }
         }
+      ],
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone.",
+          "recordAudioAndroid": true
+        }
       ]
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "42b180ba-33c5-4a03-a4dc-571265053cde"
+      }
+    },
+    "owner": "anjhelomarreros"
   }
 }

@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://argumentation-ai-388037247851.us-central1.run.app/:path*"
+    }
+  ]
+}
