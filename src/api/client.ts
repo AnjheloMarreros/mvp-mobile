@@ -3,7 +3,7 @@ import { Platform } from "react-native";
 // ====================== PRODUCCIÓN (Cloud Run) ======================
 
  const CLOUD_RUN_BASE_URL =
-   "https://your-url";
+   "https://argumentation-ai-388037247851.us-central1.run.app";
 
  const DEFAULT_BASE_URL =
    Platform.OS === "web"
