@@ -7,7 +7,6 @@
     "icon": "./assets/images/icon.png",
     "scheme": "mvpmobile",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
@@ -46,11 +45,11 @@
           "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone.",
           "recordAudioAndroid": true
         }
-      ]
+      ],
+      "expo-asset"
     ],
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
+      "typedRoutes": true
     },
     "extra": {
       "router": {},
@@ -58,6 +57,15 @@
         "projectId": "42b180ba-33c5-4a03-a4dc-571265053cde"
       }
     },
+
+    "updates": {
+      "enabled": false
+    },
+
+
     "owner": "anjhelomarreros"
+
+  
+
   }
 }
